@@ -18,7 +18,7 @@
 
 <h4 dir="rtl">استفاده از رابط کامندی</h4>
 
-<strong dir="rtl">Github</strong>
+<h4 dir="rtl">گیت‌هاب</h4>
 
 <p dir="rtl">- کپی بر روی سیستم خودتان</p>
 
