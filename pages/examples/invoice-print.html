@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 3 | Invoice</title>
+  <title>پنل مدیریت | صورتحساب</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap 4 -->
@@ -17,51 +17,57 @@
 
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+  <!-- bootstrap rtl -->
+  <link rel="stylesheet" href="../../dist/css/bootstrap-rtl.min.css">
+  <!-- template rtl version -->
+  <link rel="stylesheet" href="../../dist/css/custom-style.css">
 </head>
 <body onload="window.print();">
 <div class="wrapper">
   <!-- Main content -->
-  <section class="invoice">
+  <!-- Main content -->
+  <div class="invoice">
     <!-- title row -->
     <div class="row">
       <div class="col-12">
-        <h2 class="page-header">
-          <i class="fa fa-globe"></i> AdminLTE, Inc.
-          <small class="float-right">Date: 2/10/2014</small>
-        </h2>
+        <h4>
+          <i class="fa fa-globe"></i> مجله آموزشی راکت
+          <small class="float-left">Date: 1397/09/30</small>
+        </h4>
       </div>
       <!-- /.col -->
     </div>
     <!-- info row -->
     <div class="row invoice-info">
       <div class="col-sm-4 invoice-col">
-        From
+        از
         <address>
-          <strong>Admin, Inc.</strong><br>
-          795 Folsom Ave, Suite 600<br>
-          San Francisco, CA 94107<br>
-          Phone: (804) 123-5432<br>
-          Email: info@almasaeedstudio.com
+          <strong>مجله آموزشی راکت</strong><br>
+          آدرس<br>
+          خیابان<br>
+          تلفن : (804) 123-5432<br>
+          ایمیل : info@roocket.ir
         </address>
       </div>
       <!-- /.col -->
       <div class="col-sm-4 invoice-col">
-        To
+        به
         <address>
-          <strong>John Doe</strong><br>
-          795 Folsom Ave, Suite 600<br>
-          San Francisco, CA 94107<br>
-          Phone: (555) 539-1037<br>
-          Email: john.doe@example.com
+          <strong>محمدحسن قلی</strong><br>
+          آدرس خریدار<br>
+          خیابان فلان<br>
+          تلفن : (555) 539-1037<br>
+          ایمیل : john.doe@example.com
         </address>
       </div>
       <!-- /.col -->
       <div class="col-sm-4 invoice-col">
-        <b>Invoice #007612</b><br>
+        <b>سفارش #007612</b><br>
         <br>
-        <b>Order ID:</b> 4F3S8J<br>
-        <b>Payment Due:</b> 2/22/2014<br>
-        <b>Account:</b> 968-34567
+        <b>کد سفارش :</b> 4F3S8J<br>
+        <b>تاریخ پرداخت :</b> 12 آبان 1397<br>
+        <b>اکانت :</b> 968-34567
       </div>
       <!-- /.col -->
     </div>
@@ -73,41 +79,42 @@
         <table class="table table-striped">
           <thead>
           <tr>
-            <th>Qty</th>
-            <th>Product</th>
-            <th>Serial #</th>
-            <th>Description</th>
-            <th>Subtotal</th>
+            <th>تعداد</th>
+            <th>محصول</th>
+            <th>سریال #</th>
+            <th>توضیحات</th>
+            <th>قیمت کل</th>
           </tr>
           </thead>
           <tbody>
           <tr>
             <td>1</td>
-            <td>Call of Duty</td>
+            <td>ندای وظیفه</td>
             <td>455-981-221</td>
-            <td>El snort testosterone trophy driving gloves handsome</td>
-            <td>$64.50</td>
+            <td>بازی شوتر شخص اول</td>
+            <td>150000 تومان</td>
           </tr>
           <tr>
             <td>1</td>
-            <td>Need for Speed IV</td>
+            <td>تلویزیون هوشمند سامسونگ</td>
             <td>247-925-726</td>
-            <td>Wes Anderson umami biodiesel</td>
-            <td>$50.00</td>
+            <td>لوازم خانگی</td>
+            <td>2,000,000 تومان</td>
           </tr>
           <tr>
             <td>1</td>
-            <td>Monsters DVD</td>
+            <td>لباسشویی</td>
             <td>735-845-642</td>
-            <td>Terry Richardson helvetica tousled street art master</td>
-            <td>$10.70</td>
+            <td>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ </td>
+            <td>10,000 تومان</td>
           </tr>
           <tr>
             <td>1</td>
-            <td>Grown Ups Blue Ray</td>
+            <td>نجات سرباز رایان</td>
             <td>422-568-642</td>
-            <td>Tousled lomo letterpress</td>
-            <td>$25.99</td>
+            <td>لورم ایپسوم متن ساختگی</td>
+            <td>20,000 تومان</td>
           </tr>
           </tbody>
         </table>
@@ -119,38 +126,37 @@
     <div class="row">
       <!-- accepted payments column -->
       <div class="col-6">
-        <p class="lead">Payment Methods:</p>
+        <p class="lead">روش های پرداخت :</p>
         <img src="../../dist/img/credit/visa.png" alt="Visa">
         <img src="../../dist/img/credit/mastercard.png" alt="Mastercard">
         <img src="../../dist/img/credit/american-express.png" alt="American Express">
         <img src="../../dist/img/credit/paypal2.png" alt="Paypal">
 
         <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-          Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles, weebly ning heekya handango imeem plugg dopplr
-          jibjab, movity jajah plickers sifteo edmodo ifttt zimbra.
+          پرداخت از طریق کلیه کارت های بانکی عضو شتاب امکان پذیر می باشد.
         </p>
       </div>
       <!-- /.col -->
       <div class="col-6">
-        <p class="lead">Amount Due 2/22/2014</p>
+        <p class="lead">مهلت پرداخت : 10 دی 1397</p>
 
         <div class="table-responsive">
           <table class="table">
             <tr>
-              <th style="width:50%">Subtotal:</th>
-              <td>$250.30</td>
+              <th style="width:50%">مبلغ کل :</th>
+              <td>1,300,000 تومان</td>
             </tr>
             <tr>
-              <th>Tax (9.3%)</th>
-              <td>$10.34</td>
+              <th>مالیات (9.3%)</th>
+              <td>300,000 تومان</td>
             </tr>
             <tr>
-              <th>Shipping:</th>
-              <td>$5.80</td>
+              <th>تخفیف :</th>
+              <td>20,000 تومان</td>
             </tr>
             <tr>
-              <th>Total:</th>
-              <td>$265.24</td>
+              <th>مبلغ قابل پرداخت:</th>
+              <td>900,000 تومان</td>
             </tr>
           </table>
         </div>
@@ -158,7 +164,7 @@
       <!-- /.col -->
     </div>
     <!-- /.row -->
-  </section>
+  </div>
   <!-- /.content -->
 </div>
 <!-- ./wrapper -->

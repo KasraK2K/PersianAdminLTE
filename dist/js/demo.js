@@ -28,8 +28,8 @@
   ]
 
   $container.append(
-    '<h5>Customize AdminLTE</h5><hr class="mb-2"/>'
-    + '<h6>Navbar Variants</h6>'
+    '<h5>تنظیمات قالب</h5><hr class="mb-2"/>'
+    + '<h6>رنگ‌های نوار ناوبری</h6>'
   )
 
   var $navbar_variants        = $('<div />', {
@@ -76,7 +76,7 @@
     }
   })
   $checkbox_container.append($navbar_border)
-  $checkbox_container.append('<span>Navbar border</span>')
+  $checkbox_container.append('<span>مرز نوار ناوبری</span>')
   $container.append($checkbox_container)
 
 
@@ -101,7 +101,7 @@
     'sidebar-light-success'
   ]
 
-  $container.append('<h6>Dark Sidebar Variants</h6>')
+  $container.append('<h6>نوار تیره</h6>')
   var $sidebar_variants = $('<div />', {
     'class': 'd-flex'
   })
@@ -117,7 +117,7 @@
     $sidebar.addClass(sidebar_class)
   }))
 
-  $container.append('<h6>Light Sidebar Variants</h6>')
+  $container.append('<h6>نوار روشن</h6>')
   var $sidebar_variants = $('<div />', {
     'class': 'd-flex'
   })
@@ -134,14 +134,14 @@
   }))
 
   var logo_skins = navbar_all_colors
-  $container.append('<h6>Brand Logo Variants</h6>')
+  $container.append('<h6>رنگ برند لوگو</h6>')
   var $logo_variants = $('<div />', {
     'class': 'd-flex'
   })
   $container.append($logo_variants)
   var $clear_btn = $('<a />', {
     href: 'javascript:void(0)'
-  }).text('clear').on('click', function () {
+  }).text('پاک کردن').on('click', function () {
     var $logo = $('.brand-link')
     logo_skins.map(function (skin) {
       $logo.removeClass(skin)
@@ -189,8 +189,35 @@
       if (callback) {
         $color.on('click', callback)
       }
+
     })
 
     return $block
   }
+
+  $('[data-widget="chat-pane-toggle"]').click(function() {
+      $(this).closest('.card').toggleClass('direct-chat-contacts-open')
+  });
+  $('[data-toggle="tooltip"]').tooltip();
+
+
+  function ConvertNumberToPersion() {
+        let persian = { 0: '۰', 1: '۱', 2: '۲', 3: '۳', 4: '۴', 5: '۵', 6: '۶', 7: '۷', 8: '۸', 9: '۹' };
+        function traverse(el) {
+            if (el.nodeType == 3) {
+                var list = el.data.match(/[0-9]/g);
+                if (list != null && list.length != 0) {
+                    for (var i = 0; i < list.length; i++)
+                        el.data = el.data.replace(list[i], persian[list[i]]);
+                }
+            }
+            for (var i = 0; i < el.childNodes.length; i++) {
+                traverse(el.childNodes[i]);
+            }
+        }
+        traverse(document.body);
+    }
+
+  ConvertNumberToPersion()
+
 })(jQuery)
