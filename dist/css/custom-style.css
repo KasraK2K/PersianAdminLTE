@@ -73,6 +73,13 @@ ul {
     padding-inline-start: 0px;
 }
 
+.dropdown-item {
+    text-align: right;
+}
+.dropdown-footer, .dropdown-header {
+    text-align: center;
+}
+
 .breadcrumb-item+.breadcrumb-item::before {
     padding-left: .5rem;
 }
