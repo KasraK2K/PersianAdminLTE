@@ -5,10 +5,7 @@
 
 <p dir="rtl">قابل ذکر است که این قالب توسط AdminLTE.io آماده سازی شده اما توسط حسام موسوی فارسی سازی شده و از این به بعد بر اساس این ورژن توسعه داده میشود</p>
 
-
-
 !["AdminPanel"](https://roocket.ir/public/images/2018/12/17/adminpanel.png "Admin Panel")
-
 
 <p dir="rtl">این قابل با استفاده از css و html و javascript توسعه داده شده است</p>
 
