@@ -1,95 +1,55 @@
-Introduction
-============
+<h2 dir="rtl">معرفی</h2>
+<p dir="rtl"><strong>PersianAdminLTE</strong> یک قالب کاملا رسپانسیو است که برای ایجاد پنل مدیریت زیبا ایجاد شده است. این قالب بر اساس فریمورک <a href="https://getbootstrap.com">Bootstrap 4</a> پیاده سازی شده و کاملا قابل شخصی سازی است.</p>
 
-**AdminLTE** is a fully responsive administration template. Based on **[Bootstrap 4](https://getbootstrap.com)** framework.
-Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops.
+<p dir="rtl">قابل ذکر است که این قالب توسط AdminLTE.io آماده سازی شده اما توسط حسام موسوی فارسی سازی شده و از این به بعد بر اساس این ورژن توسعه داده میشود</p>
 
-**Download & Preview on [AdminLTE.io](https://adminlte.io)**
 
-Looking for Premium Templates?
-------------------------------
-AdminLTE.io just opened a new premium templates page. Hand picked to insure the best quality and the most affordable
-prices. Visit https://adminlte.io/premium for more information.
 
 !["AdminPanel"](https://roocket.ir/public/images/2018/12/17/adminpanel.png "Admin Panel")
 
-**AdminLTE** has been carefully coded with clear comments in all of its JS, SCSS and HTML files.
-SCSS has been used to increase code customizability.
 
-Installation
-------------
-There are multiple ways to install AdminLTE.
+<p dir="rtl">این قابل با استفاده از css و html و javascript توسعه داده شده است</p>
 
-#### Download:
+<h2 dir="rtl">نصب و راه اندازی</h2>
 
-Download from Github or [visit AdminLTE.io](https://adminlte.io) and download the latest release.
+<h4 dir="rtl">دانلود</h4>
 
-#### Using The Command Line:
+<p dir="rtl">شما میتوانید هم از طریق گیت هاب و هم از طریق وبسایت راکت اقدام به دانلود این قالب کنید</p>
 
-**NPM**
-```bash
-npm install admin-lte
+<h4 dir="rtl">استفاده از رابط کامندی</h4>
+
+<strong dir="rtl">Github</strong>
+
+<p dir="rtl">- کپی بر روی سیستم خودتان</p>
+
+```
+git clone https://github.com/Hesammousavi/PersianAdminLTE.git
 ```
 
-**Github**
+<h2 dir="rtl">مستندات</h2>
+<p dir="rtl">بزودی صفحه مستندات هم راه اندازی خواهد شد</p>
 
-- Clone to your machine
-```
-git clone https://github.com/almasaeed2010/AdminLTE.git
-```
 
-Documentation
--------------
-Visit the [online documentation](https://adminlte.io/themes/AdminLTE/documentation/index.html) for the most
-updated guide. Information will be added on a weekly basis.
+<h2 dir="rtl">پشتیبانی از مرورگرها</h2>
+<ul dir="ltr">
+  <li dir="ltr">IE 10+</li>
+  <li dir="ltr">Firefox (latest)</li>
+  <li dir="ltr">Chrome (latest)</li>
+  <li dir="ltr">Safari (latest)</li>
+  <li dir="ltr">Opera (latest)</li>
+</ul>
 
-Browser Support
----------------
-- IE 10+
-- Firefox (latest)
-- Chrome (latest)
-- Safari (latest)
-- Opera (latest)
+<h2 dir="rtl">همکاری در توسعه</h2>
+<p dir="rtl">با همکاری در این پروژه شما هم جزئی از دنیای اوپن سورس خواهید بود</p>
 
-Contribution
-------------
-Contribution are always **welcome and recommended**! Here is how:
+<h4 dir="rtl">روش همکاری</h4>
+<ul dir="rtl">
+  <li>ابتدا از پروژه فعلی Fork بگیرید</li>
+  <li>پروژه Fork شده را بر روی سیستم خودتان Clone کنید</li>
+  <li>یک Branch جدید بر روی سیستم خودتان ایجاد کنید</li>
+  <li>تغییرات خودتان را اعمال کنید</li>
+  <li>در نهایت درخواست Pull Request برای ما ارسال کنید</li>
+</ul>
 
-- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
-- Clone to your machine ```git clone https://github.com/YOUR_USERNAME/AdminLTE.git```
-- Create a new branch
-- Make your changes
-- Create a pull request
-
-#### Contribution Requirements:
-
-- When you contribute, you agree to give a non-exclusive license to AdminLTE.io to use that contribution in any context as we (AdminLTE.io) see appropriate.
-- If you use content provided by another party, it must be appropriately licensed using an [open source](http://opensource.org/licenses) license.
-- Contributions are only accepted through Github pull requests.
-- Finally, contributed code must work in all supported browsers (see above for browser support).
-
-License
--------
-AdminLTE is an open source project by [AdminLTE.io](https://adminlte.io) that is licensed under [MIT](http://opensource.org/licenses/MIT). AdminLTE.io
-reserves the right to change the license of future releases.
-
-Legacy Releases
----------------
-- [AdminLTE 2](https://github.com/almasaeed2010/AdminLTE/releases/tag/v2.4.3)
-- [AdminLTE 1](https://github.com/almasaeed2010/AdminLTE/releases/tag/1.3.1)
-
-Change log
-----------
-Visit the [releases](https://github.com/almasaeed2010/AdminLTE/releases) page to view the changelog
-
-Image Credits
--------------
-[Pixeden](http://www.pixeden.com/psd-web-elements/flat-responsive-showcase-psd)
-
-[Graphicsfuel](http://www.graphicsfuel.com/2013/02/13-high-resolution-blur-backgrounds/)
-
-[Pickaface](http://pickaface.net/)
-
-[Unsplash](https://unsplash.com/)
-
-[Uifaces](http://uifaces.com/)
+<h2 dir="rtl">لایسنس</h2>
+<p dir="rtl">لایسنس این پروژه متعلق به AdminLTE.io میباشد . و بدلیل اوپن سورس بودن آن ما توانستیم آن را به شکل فارسی در آورده و در اختیار شما قرار دهیم. زنده باد دنیای اوپن سورس</p>
